@@ -1,0 +1,281 @@
+.page-logo {
+  float: left;
+  margin-left: 5px;
+  margin-bottom: 10px;
+  margin-top:5px;
+  position: fixed;
+}
+
+.page-container {
+  background-color: #039be5;
+  height: 100%;
+  margin: 0 auto;
+  text-align: center;
+  width: 100%;
+  position: relative;
+}
+
+.container {
+  height: auto;
+  margin: 0 auto;
+  text-align: center;
+  width: 40%;
+}
+
+.logo-img {
+  padding: 5%;
+  background-color: white;
+  width: 300px;
+  border-radius: 25px;
+}
+
+.container-table {
+  position: absolute;
+  top: 10%;
+  left: 15%;
+  bottom: 9%;
+  border-radius: 25px;
+  background: #f9f9f9;
+  padding: 20px;
+  margin: 0 auto;
+  text-align: center;
+  width: 70%;
+  height: 750px;
+}
+
+.container-admin-table {
+  position: absolute;
+  top: 10%;
+  left: 15%;
+  bottom: 9%;
+  border-radius: 25px;
+  background: #f9f9f9;
+  padding: 20px;
+  margin: 0 auto;
+  text-align: center;
+  width: 70%;
+  height: 750px;
+}
+
+.settingsLblPos {
+  position: fixed;
+  right: 30px;
+  top: 5px;
+}
+
+.logoutLblPos {
+  color: blue;
+  position: fixed;
+  right: 10px;
+  top: 5px;
+}
+
+.table-column {
+  position: absolute;
+  right: 10px;
+  width: 100%;
+}
+
+/* Port Counter */
+.port-counter {
+  color: black;
+  background-color: #eee;
+  padding: 5px;
+  padding-left: 15px;
+  padding-right: 15px;
+  font-size: 16px;
+  border: none;
+  height: 50px;
+  border-radius: 100px 100px 100px 100px;
+
+}
+
+/* The container <div> - needed to position the dropdown content */
+.counter {
+  position: fixed;
+  right: 300px;
+  top: 10px;
+  height: 10px;
+  padding-right: 5px;
+  display: inline-block;
+}
+
+
+/* Dropdown Button */
+.dropbtn-user {
+  color: black;
+  padding: 5px;
+  padding-left: 8px;
+  padding-right: 15px;
+  font-size: 16px;
+  border: none;
+  height: 50px;
+  border-radius: 100px 100px 100px 100px;
+
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown-user {
+  position: fixed;
+  right: 20px;
+  top: 10px;
+  height: 10px;
+  padding-right: 5px;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content-user {
+  display: none;
+  position: absolute;
+  background-color: #eee;
+  border-radius: 25px;
+  min-width: 130px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  padding: 12px 16px;
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content-user a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content-user a:hover {
+  background-color: #039be5;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown-user:hover .dropdown-content-user {
+  display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown-user:hover .dropbtn-user {}
+
+
+body {
+  background-color: #039be5;
+}
+
+.card {
+  width: 400px;
+  background-color: #fff;
+  border: none;
+  border-radius: 12px
+}
+
+label.radio {
+  cursor: pointer;
+  width: 100%
+}
+
+label.radio input {
+  position: absolute;
+  top: 0;
+  left: 0;
+  visibility: hidden;
+  pointer-events: none
+}
+
+label.radio span {
+  padding: 7px 14px;
+  border: 2px solid #eee;
+  display: inline-block;
+  color: #039be5;
+  border-radius: 10px;
+  width: 100%;
+  height: 48px;
+  line-height: 27px
+}
+
+label.radio input:checked+span {
+  border-color: #039BE5;
+  background-color: #81D4FA;
+  color: #fff;
+  border-radius: 9px;
+  height: 48px;
+  line-height: 27px
+}
+
+.form-control {
+  margin-top: 10px;
+  height: 48px;
+  border: 2px solid #eee;
+  border-radius: 10px
+}
+
+.form-control:focus {
+  box-shadow: none;
+  border: 2px solid #039BE5
+}
+
+.agree-text {
+  font-size: 12px
+}
+
+.terms {
+  font-size: 12px;
+  text-decoration: none;
+  color: #039BE5
+}
+
+.confirm-button {
+  height: 50px;
+  border-radius: 10px
+}
+
+.table-fixed tbody {
+  height: 540px;
+}
+
+.table-blanket {
+  height: 400px;
+}
+
+.table-fixed thead,
+.table-fixed tbody,
+.table-fixed tr,
+.table-fixed td,
+.table-fixed th {
+  display: block;
+}
+
+.table-fixed tbody td,
+.table-fixed tbody th,
+.table-fixed tbody th>tr>th,
+.table-fixed tbody th>tr>td,
+.table-fixed thead>tr>th {
+  float: left;
+  position: relative;
+}
+
+.table-fixed tbody td,
+.table-fixed tbody th,
+.table-fixed thead>tr>th::after {
+
+  display: block;
+}
+
+/* NAVIGATION BAR */
+
+#logo_image {
+  position: relative;
+  width: 150px;
+  height: 75px;
+  padding: 10px;
+  padding-left: 30px;
+}
+
+.button-center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
