@@ -1,7 +1,7 @@
 <?php
 /* Database credentials. Assuming you are running MySQL
 server with default setting (user 'root' with no password) */
-$mysql_ip = $_ENV["DB_ADDRESS"];
+$mysql_ip = $_ENV["DB_ADDRESSs"];
 
 define('DB_SERVER', $mysql_ip);
 define('DB_USERNAME', 'licuser');
